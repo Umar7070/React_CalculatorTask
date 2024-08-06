@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infut_feild {
+    display: flex;
+    justify-content: center;
+
+}
+
+.infut_feild input {
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.infut_feild button {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.child {
+    display: flex;
+    gap: 20px;
+}
