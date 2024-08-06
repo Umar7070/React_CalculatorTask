@@ -18,7 +18,7 @@ const Home = () => {
   const showBtn = ["USE BALANCE", "$1000", "$100"];
   const days = [1, 7, 30, 2, 5];
   const tier = ["Tier1", "Tier2", "Tier3", "Tier4", "Tier5"];
-  const chnageBgcolor = { backgroundColor: "skyblue",   border: "1px solid blue", color: "red", };
+  const chnageBgcolor = { backgroundColor: "cyan",   border: "1px solid blue", color: "orange", };
 
   const handleBtnBackground = (index) => {
     setSelectedDay(index);
@@ -220,7 +220,7 @@ const Home = () => {
           </div>
           {arrowdown ? (
             <div className="footer_content">
-              <h5>Calculate based on your current rates</h5>
+              <h4>Calculate based on your current rates</h4>
               <p>
                 All fugures are estimates provided for your convenience only,
                 and by no means represent guaranted returns.
